@@ -1,11 +1,100 @@
 body {
 	color: #000000;
-	font-family: sans-serif;
-	font-size: 14px;
+	font-family: 'Cuprum', sans-serif, 'PT Sans', sans-serif;
+	font-size: 0px;
 	line-height: 1.5;
 	font-style: normal;
+	width: 100%;
 }
 
+.main-header {
+	width: auto;
+	font-size: 16px;
+	}
+.bg-main-head {
+	width: auto;
+	background-color: #293449;
+}
+.top-head {
+	width: 940px;
+  	margin: 0 auto;
+  	min-height: 42px;
+}
+.logo {
+	float: left;
+	background-color: #ee3643;
+	width: 220px;
+	padding: 0;
+	border-bottom: solid #b52933 5px;
+	font-family: 'Cuprum', sans-serif;
+	font-size: 24px;
+	padding: 3px;
+}
+.search {
+	float: left;
+}
+.bookmarks {
+	float: left;
+}
+.basket {
+	float: left;
+	background-color: #ee3643;
+	width: 150px;
+}
+.checkout {
+	float: right;
+	background-color: #63a63e;
+	width: 150px;
+
+}
+.bg-middle {
+	padding-bottom: 60px;
+	background-color: #f2f6f8;
+	width: auto;
+}
+.middle-head {
+	clear: both;
+	width: 940px;
+	margin: 0 auto;
+}
+.slogan {
+	float: left;
+	width: 204px;
+	padding-left: 52px;
+	padding-right: 70px;
+}
+.adress {
+
+	float: left;
+	width: 270px;
+	font-size: 21px;
+}
+.adress span {
+	display: inline-block;
+	font-size: 21px;
+	border: solid white 2px;
+	padding: 5px 50px 5px 70px;
+}
+.adress a {
+	font-size: 14px;
+}
+.customer-form {
+	float: right;
+}
+.main-menu {
+	clear: both;
+	display: block;
+	width: 940px;
+	border-bottom: solid #293449 5px;
+	margin: 0 auto;
+	background-color: #32425c;
+
+}
+.navigation li {
+	font-size: 17px;
+	padding: 22px 27px 5px;
+	display: inline-block;
+	}
 .slogan h1 {
 	color: #ee3643;
 	font-size: 16px;
@@ -17,4 +106,89 @@ body {
 	font-size: 17px;
 	line-height: 30px;
 	font-style: bold;
+}
+.container {
+	clear: both;
+	width: 940px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.materials {
+	float: left;
+	width: 300px;
+	min-height: 123px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #f6b22d;
+}
+.tools {
+	float: left;
+	width: 300px;
+	min-height: 123px;
+	background-color: #4aafde;
+}
+.technics {
+	float: right;
+	width: 300px;
+	min-height: 123px;
+	background-color: #cc79d1;
+}
+.slider {
+	clear: both;
+	float: left;
+	margin-bottom: 53px;
+}
+.discount {
+	
+	float: right;
+	width: 300px;
+	margin-bottom: 20px;
+	min-height: 123px;
+	background-color: #85d179;
+}
+.shipping {
+	float: right;
+	width: 300px;
+	min-height: 123px;
+	background-color: #f6b22d;
+}
+.bestseller {
+	clear: both;
+	
+}
+.product-head {
+	width: auto;
+	background-color: #f7f3ec;
+		
+}
+.product-head h2 {
+	display: inline-block;
+	
+	font-size: 30px;
+}
+.product-head a {
+	display: inline-block;
+	float: right;
+	width: 253px;
+	padding: 10px 0;
+	margin: 25px 24px;
+	background-color: #ee3643;
+	font-size: 14px;
+}
+.product-cards {
+	clear: both;
+	margin-top: 20px;	
+}
+.product {
+	float: left;
+	width: 218px;
+	margin-right: 20px;
+	border: solid #e5e5e5 1px;
+}
+.product:nth-child(4) {
+	margin: 0;
+}
+footer {
+	font-size: 16px;
+
 }
