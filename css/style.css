@@ -6,7 +6,6 @@ body {
 	font-style: normal;
 	width: 100%;
 }
-
 .main-header {
 	width: auto;
 	font-size: 16px;
@@ -45,7 +44,6 @@ body {
 	float: right;
 	background-color: #63a63e;
 	width: 150px;
-
 }
 .bg-middle {
 	padding-bottom: 60px;
@@ -88,7 +86,6 @@ body {
 	border-bottom: solid #293449 5px;
 	margin: 0 auto;
 	background-color: #32425c;
-
 }
 .navigation li {
 	font-size: 17px;
@@ -109,9 +106,14 @@ body {
 }
 .container {
 	clear: both;
-	width: 940px;
+	width: auto;
 	margin: 0 auto;
 	font-size: 16px;
+}
+.important {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 60px
 }
 .materials {
 	float: left;
@@ -154,16 +156,15 @@ body {
 }
 .bestseller {
 	clear: both;
-	
+	width: 940px;
+	margin: 0 auto;
 }
 .product-head {
 	width: auto;
 	background-color: #f7f3ec;
-		
 }
 .product-head h2 {
 	display: inline-block;
-	
 	font-size: 30px;
 }
 .product-head a {
@@ -184,9 +185,56 @@ body {
 	width: 218px;
 	margin-right: 20px;
 	border: solid #e5e5e5 1px;
+	margin-bottom: 21px;
 }
 .product:nth-child(4) {
-	margin: 0;
+	margin-right: 0;
+}
+.vendors-head {
+	clear: both;
+	width: auto;
+	background-color: #f7f3ec;
+	margin-bottom: 21px;
+}
+.vendors-head h2 {
+	display: inline-block;
+	font-size: 30px;
+}
+.vendors-head a {
+	display: inline-block;
+	float: right;
+	width: 253px;
+	padding: 10px 0;
+	margin: 25px 24px;
+	background-color: #ee3643;
+	font-size: 14px;
+}
+.vendors {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.vendors a {
+	display: flex;
+	width: 218px;
+	min-height: 145px;
+	border: solid #e5e5e5 1px; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 21px;
+}
+.service-head {
+	margin-top: 65px;
+	width: auto;
+	background-color: #f2f6f8;
+}
+.service {
+	width: 940px;
+	margin: 0 auto;
+	min-height: 522px;
+	
+
 }
 footer {
 	font-size: 16px;
