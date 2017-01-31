@@ -230,13 +230,49 @@ body {
 	background-color: #f2f6f8;
 }
 .service {
+	position: relative;
 	width: 940px;
 	margin: 0 auto;
 	min-height: 522px;
-	
-
 }
+.service h2 {
+	position: absolute; 
+    top: 56px; 
+    
+}
+.service p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	position: absolute; 
+    top: 116px; 
+    width: 400px;
+}
+.service ul {
+	position: absolute; 
+    top: 237px; 
+    width: 400px;
+}
+.slider-service img {
+	position: absolute; 
+    bottom: 0px;
+    right: 0px; 
+    
+}
+.slider-service h2 {
+	position: absolute; 
+    top: 240px;
+    left: 320px; 
+    width: 400px;
+}
+.slider-service p {
+	position: absolute;
+    top: 292px;
+    left: 320px; 
+    width: 276px;
+}
+
+
+	
 footer {
 	font-size: 16px;
-
 }
