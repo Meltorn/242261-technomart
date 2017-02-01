@@ -167,18 +167,20 @@ body {
 }
 .product-head {
 	width: auto;
+	padding: 0px 24px 0px 30px;
 	background-color: #f7f3ec;
 }
 .product-head h2 {
+
+	font-family: 'Cuprum', sans-serif;
 	display: inline-block;
 	font-size: 30px;
+	
 }
 .product-head a {
-	display: inline-block;
 	float: right;
 	width: 253px;
 	padding: 10px 0;
-	margin: 25px 24px;
 	background-color: #ee3643;
 	font-size: 14px;
 }
