@@ -15,7 +15,7 @@
     			</form>
     			<div class="bookmarks"><a href="#">Закладки</a></div>
     			<div class="basket"><a href="#">Корзина</a></div>
-    			<div class="checkout"><a href="#">Оформить заказ</a></div>
+    			<div class="confirm"><a href="#">Оформить заказ</a></div>
     		</div>
     		<div class="middle-head">
 	    		<div class="slogan">
@@ -79,15 +79,15 @@
 	   	   				<button type="submit">Показать</button>
 	   		   		</form>
 	         	</aside>
-	         	<div class="product">
+	         	<div class="container-product">
 		    		<div class="filter">
 		    			<span>Сортировка:</span>
-		    			<ul>
+		    			<ul class="product-filter">
 		    				<li><a href="#">По цене</a></li>
 		    				<li><a href="#">По типу</a></li>
 		    				<li><a href="#">По функционалу</a></li>
 		    			</ul>
-		    			<ul>
+		    			<ul class="product-arrow">
 		    				<li><a href="#">Up</a></li>
 		    				<li><a href="#">Down</a></li>
 		    			</ul>
@@ -106,6 +106,15 @@
 		    				<span>15500 р.</span>
 		    			</article>
 		    			<article class="product">
+		    				<a href="#">Купить</a>
+		    				<form>
+		    					<button>В закладки</button>
+		    				</form>	
+		    				<h1>Перфоратор Bosch bfg 2000</h1>
+		    				<span class="cross-out"></span>
+		    				<span>12500 р.</span>
+		    			</article>
+		    			<article class="product">
 		    				<img src="img/bfg3000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 3000">
 		    				<h1>Перфоратор Bosch bfg 3000</h1>
 		    				<span class="cross-out">22500 р.</span>
@@ -128,15 +137,6 @@
 		    				<h1>Перфоратор Bosch bfg 6000</h1>
 		    				<span class="cross-out">30500 р.</span>
 		    				<span>25500 р.</span>
-		    			</article>
-		    			<article class="product">
-		    				<a href="#">Купить</a>
-		    				<form>
-		    					<button>В закладки</button>
-		    				</form>	
-		    				<h1>Перфоратор Bosch bfg 2000</h1>
-		    				<span class="cross-out"></span>
-		    				<span>12500 р.</span>
 		    			</article>
 		    			<article class="product">
 		    				<img src="img/bfg2000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 2000">
@@ -167,12 +167,14 @@
 			   		</div> 
 		    	</div>
 		    </div>
-	    	<div class="solution">
-	    		<h2>Пара слов о перфораторах</h2>
-	    		<p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверстий
-	    			в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные
-	    		 модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор 
-	    		 "трехрежимников": в одном инструменте будут совмещены ударный молоток и ударная дрель.</p>
+	    	<div class="solution-bg">
+	    		<div class="solution">
+		    		<h2>Пара слов о перфораторах</h2>
+		    		<p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверстий
+		    			в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные
+		    		 модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор 
+		    		 "трехрежимников": в одном инструменте будут совмещены ударный молоток и ударная дрель.</p>
+		    	</div>	 
 	    	</div>
     	</main>
     	<footer>
