@@ -533,3 +533,13 @@ footer {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
+.filter {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	margin: 0;
+	padding: 12px 18px;
+	font-size: 13px;
+	background-color: #f7f3ec;
+}
