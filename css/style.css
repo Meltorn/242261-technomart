@@ -46,7 +46,10 @@ font-family: 'PT Sans', sans-serif;
 .logo:hover {
     background-color: #ca2c37;
     border-bottom: solid #9a212a 5px;
-    
+}
+.logo:active {
+	background-color: #ba2732;
+	border-bottom: solid #8e1e26 5px;
 }
 .search {
 	float: left;
@@ -270,14 +273,19 @@ font-family: 'PT Sans', sans-serif;
 	justify-content: space-between;
 	width: auto;
 	font-family: 'PT Sans', sans-serif, Arial;
-	font-size: 18px;
-	line-height: 20px;
 }
-.product-cards h1{
-	font-family: 'PT Sans', sans-serif, Arial;
+.product-cards h1, .product-cards .upper{
 	font-size: 18px;
 	line-height: 20px;
 	font-style: bold;
+}
+.product-cards span, {
+	font-size: 17px;
+	line-height: 18px;
+	font-style: bold;
+}
+.product-cards .upper {
+	text-transform: uppercase;
 }
 .product {
 	display: flex;
@@ -656,6 +664,10 @@ footer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 17px;
+	text-transform: uppercase;
 }
 .breadcrumbs ul {
 	display: flex;
@@ -693,15 +705,18 @@ footer {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
-form span {
+.check-menu span {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: auto;
 	margin: 0;
 	padding: 12px 18px;
-	font-size: 13px;
 	background-color: #f7f3ec;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
 }
 .check-menu .vendor {
 	display: flex;
@@ -710,13 +725,19 @@ form span {
 	width: 220px;
 	border-top: solid #e5e5e5 1px;
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
 	
 }
 .check-menu h2 {
 	color: #000000;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	line-height: 30px;
 	font-style: bold;
+	text-transform: uppercase;
 }
 .check-menu .item {
 	display: flex;
@@ -725,6 +746,16 @@ form span {
 	width: auto;
 	border-top: solid #e5e5e5 1px;
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.check-menu button {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
 }
 
 .container-product {
@@ -771,6 +802,10 @@ form span {
 	justify-content: flex-start;
 	margin: 32px 0 60px 0;
 	width: auto;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
 }
 .page-navigation .page {
 	display: flex;
@@ -792,5 +827,15 @@ form span {
 	width: 940px;
 	margin: 0 auto;
 	padding: 70px 0;
-	
+}
+.solution h2 {
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.solution p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
 }
