@@ -4,8 +4,11 @@ body {
 	font-size: 0px;
 	line-height: 1.5;
 	font-style: normal;
-	width: 100%;
+	min-width: 960px;
 }
+/*font-family: 'Cuprum', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
 .main-header {
 	width: auto;
 	font-size: 16px;
@@ -185,7 +188,11 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	width: auto;
-}
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	
+	}
 .product {
 	display: flex;
 	flex-wrap: wrap;
