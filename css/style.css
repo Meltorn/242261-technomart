@@ -9,12 +9,13 @@ body {
 /*font-family: 'Cuprum', sans-serif;
 font-family: 'PT Sans', sans-serif;
 */
-.main-header {
+
+/*.main-header {
 	width: auto;
 	font-size: 16px;
 	}
 .bg-main-head {
-	width: auto;
+	width: 100%;
 	background-color: #293449;
 }
 .top-head {
@@ -57,20 +58,6 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 }
-.bookmarks {
-	float: left;
-	font-family: 'Cuprum', sans-serif, Arial;
-	font-size: 17px;
-	line-height: 18px;
-}
-.basket {
-	float: left;
-	background-color: #ee3643;
-	width: 150px;
-	font-family: 'Cuprum', sans-serif, Arial;
-	font-size: 17px;
-	line-height: 18px;
-}
 .confirm {
 	float: right;
 	background-color: #63a63e;
@@ -79,6 +66,119 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 }
+.basket {
+	float: right;
+	background-color: #ee3643;
+	width: 150px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+}
+.bookmarks {
+	float: right;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+}
+*/
+.main-header {
+	width: auto;
+	font-size: 16px;
+	}
+.bg-main-head {
+	width: 100%;
+	background-color: #293449;
+}
+.top-head {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 940px;
+  	margin: 0 auto;
+  	min-height: 42px;
+}
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	text-align: center;
+	background-color: #ee3643;
+	color: #ffffff;
+	width: 220px;
+	margin: 0;
+	box-shadow: #ca2c37 0px 5px 0px 0px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.logo a {
+	width: 220px;
+	padding: 8px 52px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0;
+}
+.logo:hover {
+    background-color: #ca2c37;
+    box-shadow: #9a212a 0px 5px 0px 0px;
+}
+.logo:active {
+	background-color: #ba2732;
+	box-shadow: #8e1e26 0px 5px 0px 0px;
+}
+.search {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 270px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+}
+.bookmarks {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 150px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+	text-align: center;
+}
+.basket {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #ee3643;
+	width: 150px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+	text-align: center;
+}
+.confirm {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #63a63e;
+	width: 150px;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 17px;
+	line-height: 18px;
+	text-align: center;
+}
+.confirm a {
+	padding: 14px 20px;
+}
+
+
 .bg-middle {
 	padding-bottom: 60px;
 	background-color: #f2f6f8;
@@ -350,6 +450,7 @@ font-family: 'PT Sans', sans-serif;
 	align-items: center;
 	margin-bottom: 21px;
 }
+/*
 .service-head {
 	margin-top: 65px;
 	width: auto;
@@ -415,6 +516,69 @@ font-family: 'PT Sans', sans-serif;
     font-family: 'PT Sans', sans-serif, Arial;
 	font-size: 13px;
 	line-height: 24px;
+}*/
+.service-bg {
+	width: 100%;
+	margin-top: 65px;
+	background-color: #f2f6f8;
+}
+.service-head {
+	display: flex;
+	flex-wrap: wrap;
+	width: 960px;
+	margin: 0 auto;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.service {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 400px;
+	min-height: 522px;
+}
+.service-img {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 480px;
+}
+.service h2 {
+	font-family: 'PT Sans', sans-serif, Arial;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 68px 0 36px 0;
+}
+.service p {
+	font-family: 'PT Sans', sans-serif, Arial;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0 0 72px 0;
+}
+.slider-service {
+	display: none;
+}
+.service li {
+	width: 240px;
+	padding: 15px 0;
+	list-style-type: none;
+	background-color: #32425c;
+	margin-left: -40px;
+	border-top: solid #405069 1px;
+	border-bottom: solid #293449 1px;
+
+}
+.service a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 21px;
+	line-height: 30px;
+	padding: 19px 144px 19px 22px;
+	
 }
 .about-us {
 	display: flex;

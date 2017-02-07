@@ -1,0 +1,215 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow-down {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-down-active {
+    width: 9px;
+    height: 9px;
+    background-position: -26px -5px;
+}
+
+.sprite-arrow-down-na {
+    width: 11px;
+    height: 10px;
+    background-position: -45px -5px;
+}
+
+.sprite-arrow-left {
+    width: 22px;
+    height: 40px;
+    background-position: -66px -5px;
+}
+
+.sprite-arrow-right {
+    width: 22px;
+    height: 40px;
+    background-position: -98px -5px;
+}
+
+.sprite-arrow-up {
+    width: 11px;
+    height: 10px;
+    background-position: -130px -5px;
+}
+
+.sprite-arrow-up-active {
+    width: 11px;
+    height: 10px;
+    background-position: -151px -5px;
+}
+
+.sprite-arrow-up-na {
+    width: 11px;
+    height: 10px;
+    background-position: -172px -5px;
+}
+
+.sprite-basket {
+    width: 17px;
+    height: 16px;
+    background-position: -193px -5px;
+}
+
+.sprite-bookmark {
+    width: 14px;
+    height: 16px;
+    background-position: -220px -5px;
+}
+
+.sprite-check-off {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -31px;
+}
+
+.sprite-check-off-na {
+    width: 23px;
+    height: 23px;
+    background-position: -130px -31px;
+}
+
+.sprite-check-on {
+    width: 27px;
+    height: 23px;
+    background-position: -163px -31px;
+}
+
+.sprite-check-on-na {
+    width: 27px;
+    height: 23px;
+    background-position: -200px -31px;
+}
+
+.sprite-circle {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -64px;
+}
+
+.sprite-circle-dot {
+    width: 25px;
+    height: 25px;
+    background-position: -40px -64px;
+}
+
+.sprite-circle-dot-na {
+    width: 25px;
+    height: 25px;
+    background-position: -75px -64px;
+}
+
+.sprite-circle-na {
+    width: 25px;
+    height: 25px;
+    background-position: -110px -64px;
+}
+
+.sprite-discount {
+    width: 59px;
+    height: 72px;
+    background-position: -145px -64px;
+}
+
+.sprite-fb {
+    width: 10px;
+    height: 18px;
+    background-position: -244px -5px;
+}
+
+.sprite-insta {
+    width: 17px;
+    height: 17px;
+    background-position: -38px -33px;
+}
+
+.sprite-login {
+    width: 20px;
+    height: 17px;
+    background-position: -237px -33px;
+}
+
+.sprite-login-hover {
+    width: 20px;
+    height: 17px;
+    background-position: -237px -60px;
+}
+
+.sprite-new {
+    width: 60px;
+    height: 59px;
+    background-position: -5px -146px;
+}
+
+.sprite-new-tape {
+    width: 60px;
+    height: 59px;
+    background-position: -75px -146px;
+}
+
+.sprite-paint {
+    width: 44px;
+    height: 65px;
+    background-position: -214px -87px;
+}
+
+.sprite-phone {
+    width: 19px;
+    height: 19px;
+    background-position: -145px -162px;
+}
+
+.sprite-price-holder {
+    width: 141px;
+    height: 38px;
+    background-position: -5px -215px;
+}
+
+.sprite-search {
+    width: 17px;
+    height: 17px;
+    background-position: -174px -162px;
+}
+
+.sprite-search-active {
+    width: 17px;
+    height: 17px;
+    background-position: -201px -162px;
+}
+
+.sprite-shipping {
+    width: 78px;
+    height: 63px;
+    background-position: -174px -189px;
+}
+
+.sprite-technics {
+    width: 78px;
+    height: 62px;
+    background-position: -267px -5px;
+}
+
+.sprite-tools {
+    width: 75px;
+    height: 61px;
+    background-position: -268px -77px;
+}
+
+.sprite-user {
+    width: 20px;
+    height: 18px;
+    background-position: -268px -148px;
+}
+
+.sprite-user-hover {
+    width: 20px;
+    height: 18px;
+    background-position: -298px -148px;
+}
