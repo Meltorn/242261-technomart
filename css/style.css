@@ -564,30 +564,61 @@ font-family: 'PT Sans', sans-serif;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 24px;
 	line-height: 30px;
+	width: 277px;
+	padding-left: 23px;
+	color: #ffffff;
+
+}
+.style h3 {
+	margin: 0;
+	padding-top: 23px;
+}
+.style-bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 14px;
+	background-color: #000000;
+	border: 1px;
+	border-radius: 3px;
+	width: 135px;
+	min-height: 38px;
+	opacity: 0.1;
+	margin-top: 15px;
+	z-index: 1;
+
 }
 .style a {
+	display: flex;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	z-index: 2;
+	
+	
+	
 }
 .materials {
 	float: left;
-	width: 300px;
 	min-height: 123px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	background-color: #f6b22d;
+	
 }
 .tools {
 	float: left;
-	width: 300px;
+	
 	min-height: 123px;
 	background-color: #4aafde;
 }
 .technics {
 	float: right;
-	width: 300px;
+	
 	min-height: 123px;
 	background-color: #cc79d1;
 }
@@ -599,14 +630,14 @@ font-family: 'PT Sans', sans-serif;
 .discount {
 	
 	float: right;
-	width: 300px;
+	
 	margin-bottom: 20px;
 	min-height: 123px;
 	background-color: #85d179;
 }
 .shipping {
 	float: right;
-	width: 300px;
+	
 	min-height: 123px;
 	background-color: #f6b22d;
 }
