@@ -579,15 +579,30 @@ font-family: 'PT Sans', sans-serif;
 	align-items: center;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
-	background-color: #000000;
+	
 	border: 1px;
 	border-radius: 3px;
 	width: 135px;
 	min-height: 38px;
-	opacity: 0.1;
+	
 	margin-top: 15px;
-	z-index: 1;
+	
 
+}
+.materials .style-bg {
+	background-color: #dda028;
+}
+.tools .style-bg {
+	background-color: #429dc7;
+}
+.technics .style-bg {
+	background-color: #b76dbc;
+}
+.discount .style-bg {
+	background-color: #77bc6d;
+}
+.shipping .style-bg {
+	background-color: #dda028;
 }
 .style a {
 	display: flex;
@@ -597,7 +612,7 @@ font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #ffffff;
-	z-index: 2;
+	
 	
 	
 	
