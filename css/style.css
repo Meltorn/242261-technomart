@@ -142,13 +142,23 @@ font-family: 'PT Sans', sans-serif;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content: center;
 	width: 270px;
+	
+}
+.search a {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 17px;
 	line-height: 18px;
 	text-decoration: none;
 	color: #ffffff;
+	width: 100%;
+	min-height: 100%;
+	padding-left: 50px;
 }
 .bookmarks {
 	display: flex;
@@ -411,28 +421,58 @@ font-family: 'PT Sans', sans-serif;
 
 /* ---===Стили каталога===--- */
 .sign-in {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	width: 300px;
+	min-height: 45px;
 }
-.customer-id {
-	display: flex;
+.customer-id input[type="form"]{
+	box-sizing: border-box;
+    width: 100%;
+    padding: 5px 10px;
+    color: #666666;
+    min-height: 45px;
+    border: none;
+    /*display: flex;
 	width: 300px;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
-	margin: 0;
+	margin: 0;*/
 }
-.order {
-	display: flex;
 
-}
-.account {
-	display: flex;
+.customer-options{
+    padding-top: 9px;
+    font-size: 0;
 
 }
 
+.customer-options a {
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 16px;
+	line-height: 18px;
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.customer-options-element {
+	color: #32425c;
+}
+.customer-options .customer-options-element::before {
+    opacity: 1;
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    width: 5px;
+    height: 5px;
+    background-color: #32425c;
+    border-radius: 50%;
+    content: "";
+}
 
+.customer-options a:first-child::before {
+    display: none;
+}
 
 /*.main-menu {
 	
@@ -575,7 +615,7 @@ font-family: 'PT Sans', sans-serif;
 	width: 940px;
 	margin: 0 auto;
 }
-.product-head {
+/*.product-head {
 	width: auto;
 	padding: 30px 24px 30px 30px;
 	background-color: #f7f3ec;
@@ -600,7 +640,7 @@ font-family: 'PT Sans', sans-serif;
 	color: #ffffff;
 
 
-}
+}*/
 .product-cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -608,6 +648,7 @@ font-family: 'PT Sans', sans-serif;
 	justify-content: space-between;
 	width: auto;
 	font-family: 'PT Sans', sans-serif, Arial;
+	text-align: center;
 }
 .product-cards h1, .product-cards .upper{
 	font-size: 18px;
@@ -618,6 +659,7 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-style: bold;
+	text-align: center;
 }
 .product-cards .upper {
 	text-transform: uppercase;
@@ -648,19 +690,19 @@ font-family: 'PT Sans', sans-serif;
 	margin-right: 0;
 }
 */
-.vendors-head {
+.vendors-head, .product-head {
 	width: auto;
 	padding: 30px 24px 30px 30px;
 	background-color: #f7f3ec;
 	margin: 1px 0 20px 0;
 }
-.vendors-head h2 {
+.vendors-head h2, .product-head h2 {
 	margin: 0;
 	font-family: 'Cuprum', sans-serif, Arial;
 	display: inline-block;
 	font-size: 30px;
 }
-.vendors-head a {
+.vendors-head a, .product-head a {
 	float: right;
 	width: 253px;
 	padding: 10px 0;
@@ -669,6 +711,9 @@ font-family: 'PT Sans', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	color: #ffffff;
+	border: 1px;
+	border-radius: 2px;
+	text-decoration: none;
 }
 .vendors {
 	display: flex;
@@ -820,6 +865,7 @@ font-family: 'PT Sans', sans-serif;
 	display: flex;
 	width: 940px;
 	justify-content: space-between;
+	align-items: center;
 	min-height: 536px;
 	margin: 0 auto;
 }
@@ -833,6 +879,7 @@ font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
 	text-transform: uppercase;
 	margin: 0;
+	padding-bottom: 10px;
 	
 
 }
@@ -841,23 +888,40 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
-	margin: 0;
+	
 
 }
 .organization ul {
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 20px;
-	
+}
+.organization li {
+	padding: 12px;
 }
 .about-us a {
+	float: left;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+	padding: 10px 0;
 	background-color: #ee3643;
+	text-align: center;
+	color: #ffffff;
+	border: 1px;
+	border-radius: 2px;
+	text-decoration: none;
 
 }
+.more-button {
+	width: 220px;
+	
+}
+.mail-button {
+	margin-top: 40px;
+	width: 300px;
+	}
 .contacts {
 	display: flex;
 	width: 300px;
@@ -873,6 +937,7 @@ font-family: 'PT Sans', sans-serif;
 	line-height: 30px;
 	text-transform: uppercase;
 	margin: 0;
+	padding-bottom: 10px;
 	
 }
 .contacts p {
@@ -880,7 +945,8 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
-	margin: 0;
+	margin-bottom: 30px; 
+	width: 180px;
 }
 	
 footer {
@@ -961,18 +1027,20 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin: 0;
-	padding: 16px;
+	
 	background-color: #ee3643;
 	border-bottom: solid #b52933 5px;
-	color: #ffffff;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
-	text-transform: uppercase;
-	
 }
 .footer-logo a{
 	margin: 0 auto;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 16px;
+
 }
 .footer-left p{
 	margin: 0;
@@ -980,6 +1048,8 @@ footer {
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 24px;
+	padding-top: 30px;
+
 	
 }
 .footer-right {
@@ -1006,6 +1076,13 @@ footer {
 	font-size: 18px;
 	line-height: 24px;
 }
+.footer-right a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer-right-down a{
+	color: #ffd180;
+}
 .footer-social-bg {
 	width: 100%;
 	background-color: #293449;
@@ -1029,6 +1106,8 @@ footer {
 }
 .copyright p {
 	margin: 0;
+	padding-top: 38px;
+	padding-bottom: 38px;
 }
 
 .social {
@@ -1038,6 +1117,7 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 }
 .feedback {
 	margin: 0;
@@ -1046,10 +1126,16 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-items: center;
 }
 .feedback span {
 	width: 140px;
 	margin-left: 50px;
+	color: #ffffff;
+}
+.feedback a {
+	color: #ffd180;
+	text-decoration: none;
 }
 
 /*--==Сетка Каталога==--*/

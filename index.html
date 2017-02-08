@@ -11,10 +11,15 @@
     	<header class="main-header">
 	    	<div class="bg-main-head">	
 	    		<div class="top-head">
-	    			<div class="logo"><a href="index.html">Техномарт</a></div>
-	    			<form class="search">
+	    			<div class="logo">
+	    				<a href="index.html">Техномарт</a>
+	    			</div>
+	    			<!-- <form class="search">
 	    				<input type="search" placeholder="Поиск" size="15">
-	    			</form>
+	    			</form> -->
+	    			<div class="search">
+	    				<a href="#">Поиск:</a>
+	    			</div>
 	    			<div class="bookmarks"><a href="#">Закладки: 0</a></div>
 	    			<div class="basket"><a href="#">Корзина: 0</a></div>
 	    			<div class="confirm"><a href="#">Оформить заказ</a></div>
@@ -94,25 +99,25 @@
 	    		<div class="product-cards">
 	    			<article class="product">
 	    				<img src="img/bfg9000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 9000">
-	    				<h1>Перфоратор Bosch bfg 9000</h1>
+	    				<h1>Перфоратор <span class="upper">Bosch bfg</span> 9000</h1>
 	    				<span class="cross-out">32500 р.</span>
 	    				<span>25500 р.</span>
 	    			</article>
 	    			<article class="product">
 	    				<img src="img/bfg3000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 3000">
-	    				<h1>Перфоратор Bosch bfg 3000</h1>
+	    				<h1>Перфоратор <span class="upper">Bosch bfg</span> 3000</h1>
 	    				<span class="cross-out">22500 р.</span>
 	    				<span>15500 р.</span>
 	    			</article>
 	    			<article class="product">
 	    				<img src="img/bfg6000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 6000">
-	    				<h1>Перфоратор Bosch bfg 6000</h1>
+	    				<h1>Перфоратор <span class="upper">Bosch bfg</span> 6000</h1>
 	    				<span class="cross-out">30500 р.</span>
 	    				<span>25500 р.</span>
 	    			</article>
 	    			<article class="product">
 	    				<img src="img/bfg2000.jpg" width="218" height="159" alt="Перфоратор Bosch bfg 2000">
-	    				<h1>Перфоратор Bosch bfg 2000</h1>
+	    				<h1>Перфоратор <span class="upper">Bosch bfg</span> 2000</h1>
 	    				<span class="cross-out"></span>
 	    				<span>12500 р.</span>
 	    			</article>
@@ -184,6 +189,9 @@
 	    			<p>Настоящий мужской шоппинг начинается здесь! Огромны выбор товаров для ремонта 
 	    			и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах!
 	    			</p>
+	    			<p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+					Техномарт работает со многими транспортными компаниями: 
+					</p>		
 	    			<ul>
 	    				<li>Деловые линии</li>
 	    				<li>Автотрейдинг</li>
@@ -195,7 +203,7 @@
 	    			<h2>Контакты</h2>
 	    			<p>Вы можете забрать товар сами, заехав в наш в офис:</p>
 	    			<img src="img/map.jpg" alt="Карта">
-	    			<div class="mail-button"><a href="#">Заблудились? Напишите нам!</a></div>
+	    			<div><a class="mail-button" href="#">Заблудились? Напишите нам!</a></div>
 	    		</div>
 	    	</div>
 	    </main>  
@@ -219,7 +227,7 @@
 			    			<li><a href="#">Контакты</a></li>
 			    		</ul>
 			    		
-			    		<ul>
+			    		<ul class="footer-right-down">
 			    			<li><a href="#">Материалы</a></li>
 			    			<li><a href="#">Техника</a></li>
 			    			<li><a href="#">Инструмент</a></li>
