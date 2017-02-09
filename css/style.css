@@ -428,7 +428,7 @@ font-family: 'PT Sans', sans-serif;
 	width: 300px;
 	min-height: 45px;
 }
-.customer-id input[type="form"]{
+/*.customer-id input[type="form"]{
 	box-sizing: border-box;
     width: 100%;
     padding: 5px 10px;
@@ -440,7 +440,27 @@ font-family: 'PT Sans', sans-serif;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
-	margin: 0;*/
+	margin: 0;
+}*/
+.customer-id {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 21px;
+	line-height: 21px;
+	width: 253px;
+	min-height: 45px;
+	background-color: #fff;
+	padding-left: 47px;
+	
+}
+.customer-id a {
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 21px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #000000;
 }
 
 .customer-options{
@@ -766,7 +786,7 @@ font-family: 'PT Sans', sans-serif;
 .product-cards .upper {
 	text-transform: uppercase;
 }
-.product {
+.product, .product-active{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -775,7 +795,68 @@ font-family: 'PT Sans', sans-serif;
 	border: solid #e5e5e5 1px;
 	margin-bottom: 20px;
 }
+.product-active {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product-active .product-buy-btn {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 44px;
+	width: 135px;
+	min-height: 35px;
+	background-color: #63a63e;
+	border: 1px;
+	border-radius: 2px;
+	box-shadow: #367315 0px 3px 0px 0px;
 
+
+}
+.product-buy-btn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 135px;
+	min-height: 35px;
+}
+.product-active .product-bookmark-btn {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8px;
+	width: 129px;
+	min-height: 32px;
+	border: 3px solid #63a63e;
+	border-radius: 2px;
+}
+.product-bookmark-btn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 129px;
+	min-height: 32px;
+
+}
 /*
 .product-cards {
 	clear: both;
