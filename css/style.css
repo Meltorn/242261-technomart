@@ -159,7 +159,22 @@ font-family: 'PT Sans', sans-serif;
 	width: 100%;
 	min-height: 100%;
 	padding-left: 50px;
+	position: relative;
 }
+.search a:hover {
+
+} 
+.search a:before {
+	content: "";
+	position: absolute;
+  	top: 13px;
+  	left: 18px;
+	width: 17px;
+    height: 17px;
+    background: #ff0000 url("img/icon/spritesheet.png") no-repeat;
+    background-position: -174px -162px;
+}	
+
 .bookmarks {
 	display: flex;
 	flex-wrap: wrap;
@@ -224,7 +239,9 @@ font-family: 'PT Sans', sans-serif;
 	width: 100%;
 	min-height: 100%;
 }
-
+.confirm:hover {
+	background-color: #5fbb2d;
+}
 
 /*.bg-middle {
 	padding-bottom: 60px;
