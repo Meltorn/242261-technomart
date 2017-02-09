@@ -59,7 +59,7 @@
 	    				<a href="#">Поиск:</a>
 	    			</div>
 	    			<div class="bookmarks"><a href="#">Закладки: 0</a></div>
-	    			<div class="basket"><a href="#">Корзина: 0</a></div>
+	    			<div class="basket-fill"><a href="#">Корзина: 10</a></div>
 	    			<div class="confirm"><a href="#">Оформить заказ</a></div>
 	    		</div>
 	    	</div>	
@@ -85,8 +85,7 @@
 		    			<div class="customer-options">
                         <a href="#" class="customer-options-element">Мои заказы</a>
                         <a href="#" class="customer-options-element">Мой кабинет</a>
-</div>
-		    		</div>
+					</div>
 	    		</div>
 	    		<nav class="main-menu">
 	   				<ul class="navigation">
@@ -117,9 +116,14 @@
 		   	    <aside class="check-menu">
 	            	<form>
 	            		<span>Фильтр</span>
+	            		<h2>Цена:</h2>
 	            		<div class="range">
-	            			<h2>Цена:</h2>
 	            			<input type="range">
+	            		</div>
+	            		<div class="min-hight">
+	            			<span>0</span>
+	            			<span>-</span>
+	            			<span>30000</span>
 	            		</div>
 	        			<div class="vendor">
 		            		<h2>Производители:</h2>
@@ -134,7 +138,9 @@
 	   	   					<label><input type="checkbox">Аккумуляторные</label>
 	   	   					<label><input type="checkbox">Сетевые</label>
 	      	   			</div>
-	   	   				<button type="submit">Показать</button>
+	   	   				<div class="show-btn">
+	   	   					<a href="#"> Показать</a>
+	   	   				</div>
 	   		   		</form>
 	         	</aside>
 	         	<div class="container-product">
@@ -219,8 +225,8 @@
 			   			<div class="page">
 			   				<a href="#">3</a>
 			   			</div>
-			   			<div class="page">
-			   				<a href="#">Следующая</a>
+			   			<div>
+			   				<a class="page-next" href="#">Следующая</a>
 			   			</div>
 			   		</div> 
 		    	</div>
