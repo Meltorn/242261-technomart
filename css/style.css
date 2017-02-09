@@ -195,6 +195,12 @@ font-family: 'PT Sans', sans-serif;
 	width: 100%;
 	min-height: 100%;
 }
+.bookmarks:hover {
+	background-color: #212a3a;
+}
+.bookmarks:active {
+	background-color: #161d29;
+}
 .basket, .basket-fill {
 	display: flex;
 	flex-wrap: wrap;
@@ -217,6 +223,12 @@ font-family: 'PT Sans', sans-serif;
 }
 .basket-fill {
 	background-color: #ee3643;
+}
+.basket:hover {
+	background-color: #212a3a;
+}
+.basket:active {
+	background-color: #161d29;
 }
 .confirm {
 	display: flex;
@@ -241,6 +253,9 @@ font-family: 'PT Sans', sans-serif;
 }
 .confirm:hover {
 	background-color: #5fbb2d;
+}
+.confirm:active {
+	background-color: #63a63e;
 }
 
 /*.bg-middle {
