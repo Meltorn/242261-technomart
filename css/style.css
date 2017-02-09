@@ -164,15 +164,15 @@ font-family: 'PT Sans', sans-serif;
 .search a:hover {
 
 } 
-.search a:before {
+.search a::before {
 	content: "";
 	position: absolute;
   	top: 13px;
   	left: 18px;
 	width: 17px;
     height: 17px;
-    background: #ff0000 url("img/icon/spritesheet.png") no-repeat;
-    background-position: -174px -162px;
+    background: url("..img/icon/spritesheet.png") no-repeat;
+    background-position: -201px -162px;
 }	
 
 .bookmarks {
@@ -432,6 +432,23 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 21px;
 	line-height: 21px;
 	padding-left: 20px;
+	position: relative;
+}
+.entrance a:hover {
+	color: #ee3643;
+}
+.entrance a::before {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 20px;
+    height: 17px;
+    background-position: -237px -33px;
+
+  background: url("..img/spritesheet.png") no-repeat;
+  
+
 }
 .registaration {
 	display: flex;
@@ -454,7 +471,9 @@ font-family: 'PT Sans', sans-serif;
 	font-size: 21px;
 	line-height: 21px;
 }
-
+.registaration a:hover {
+	color: #ee3643;
+}
 /* ---===Стили каталога===--- */
 .sign-in {
 	width: 300px;
