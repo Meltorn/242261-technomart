@@ -194,12 +194,35 @@ font-family: 'PT Sans', sans-serif;
 	color: #ffffff;
 	width: 100%;
 	min-height: 100%;
+	position: relative;
 }
 .bookmarks:hover {
 	background-color: #212a3a;
+	position: relative;
 }
 .bookmarks:active {
 	background-color: #161d29;
+}
+.bookmarks a:before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 15px;
+  	left: 15px;
+  	width: 14px;
+    height: 16px;
+    background-position: -220px -5px;
+}
+.bookmarks:hover::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 15px;
+  	left: 15px;
+  	width: 14px;
+    height: 16px;
+    background-position: -193px -5px;
+	
 }
 .basket, .basket-fill {
 	display: flex;
