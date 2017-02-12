@@ -1220,8 +1220,8 @@ font-family: 'PT Sans', sans-serif;
     background-color:rgba(255,255,255,0.9);
     z-index:10;
 }
-.catalog-item .actions .buy,
-.catalog-item .actions .bookmark{
+.actions .buy,
+.actions .bookmark{
     display:block;
     width:129px;
     margin:0 auto;
@@ -1239,7 +1239,7 @@ font-family: 'PT Sans', sans-serif;
     text-transform:uppercase;    
     border-radius:3px;
 }
-.catalog-item .actions .bookmark{
+.actions .bookmark{
     color:#32425c;
     background:white;
     border-bottom-color:#63a63e;
