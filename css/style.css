@@ -1166,132 +1166,18 @@ font-family: 'PT Sans', sans-serif;
 
 }
 Карточки товаро-конец*/
+/*
 
+/*Каталог*/
 .index-items{
     width:940px;
     margin:20px auto;
 }
-.index-items .row{
-    margin-left:-20px;
-}
-.index-item{
-    position:relative;
-    display:inline-block;
-    width:218px;
-    margin-left:20px;
-    margin-bottom:20px;
-    border:1px solid #ccc;
-    line-height:20px;
-    font-weight:bold;
-    text-align:center;
-}
-.index-items{
-    font-size:0;
-}
-.index-item{
-    font-size:16px;
-}
-.index-item .flag{
-    position:absolute;
-    top:-1px;
-    right:-1px;
-    width:60px;
-    height:60px;
-    text-indent:-1000px;
-    overflow:hidden;
-     z-index:20;
-}
-.index-item .flag-new{
-    background:url("../img/icon/new.png") no-repeat 0 0;
-}
-.index-item .actions{
-    position:absolute;
-    top:0;
-    left:0;
-    width:218px;
-    height:88px;
-    padding:40px 0;
-    background-color:rgba(255,255,255,0.9);
-    z-index:10;
-}
-.index-item .actions .buy,
-.index-item .actions .bookmark{
-    display:block;
-    width:129px;
-    margin:0 auto;
-    margin-bottom:7px;
-    padding:7px 0;
-    border:3px solid #63a63e;
-    border-bottom-color:#367315; 
-    background-color:#63a63e;
-    color:white;
-    font-size:14px;
-    font-weight:normal;
-    font-family:"Cuprum", sans-serif;
-    line-height:18px;
-    text-decoration:none;
-    text-transform:uppercase;    
-    border-radius:3px;
-}
-.index-item .actions .bookmark{
-    color:#32425c;
-    background:white;
-    border-bottom-color:#63a63e;
-}
-.index-item .actions{
-    display:none;
-}
-.index-item:hover .actions{
-    display:block;
-}
-.index-item .image{
-    width:218px;
-    height:168px;
-}
-.index-item .image img{
-    max-width:100%;
-}
-.index-item .title{
-    min-height:40px;
-    padding:0 25px;
-    margin-top:10px;
-    margin-bottom:15px;    
-}
-.index-item .cross-out{
-    min-height:20px;
-    margin-top:15px;
-    margin-bottom:10px;
-    color:#999;
-    text-decoration:line-through;
-}
-.index-item .price{
-    position:relative;
-    width:80px;
-    margin:10px auto;
-    margin-bottom:20px;
-    padding:10px 30px;
-    color:white;
-    background:#ee3643;
-    border-radius:3px;
-}
-.index-item .price:after{
-    content:"";
-    position:absolute;
-    top:0;
-    right:-20px;
-    width:0;
-    height:0;
-    border:20px solid white;
-    border-left-color:#ee3643;
-}
-
-
-/*Каталог*/
 .catalog-items{
     width:700px;
     margin:20px auto;
 }
-.catalog-items .row{
+.catalog-items .row, .index-items .row{
     margin-left:-20px;
 }
 .catalog-item{
@@ -1305,7 +1191,7 @@ font-family: 'PT Sans', sans-serif;
     font-weight:bold;
     text-align:center;
 }
-.catalog-items{
+.catalog-items, .index-items{
     font-size:0;
 }
 .catalog-item{
@@ -1364,6 +1250,39 @@ font-family: 'PT Sans', sans-serif;
 .catalog-item:hover .actions{
     display:block;
 }
+.actions .buy:hover {
+	background-color: #5fbb2d;
+	border:3px solid #5fbb2d;
+	border-bottom-color:#367315;
+}
+.actions .buy:active {
+	background-color: #518534;
+	border:3px solid #518534;
+}
+.actions .bookmark:hover {
+	border:3px solid #32425c;
+}
+.actions .bookmark:active {
+	border:3px solid #c1c6ce;
+}
+.actions .buy{
+	position: relative;
+}
+.actions .buy::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 8px;
+  	left: 13px;
+  	width: 17px;
+    height: 16px;
+    background-position: -193px -5px;
+    opacity: 0.3;
+}
+.actions .buy:hover::before {
+	background-position: -193px -5px;
+    opacity: 1;
+}
 .catalog-item .image{
     width:218px;
     height:168px;
@@ -1404,7 +1323,12 @@ font-family: 'PT Sans', sans-serif;
     border:20px solid white;
     border-left-color:#ee3643;
 }
-
+.catalog-item:hover {
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.5);
+}
+.catalog-item:active {
+	box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
 /*
 .product-cards {
 	clear: both;
@@ -1649,9 +1573,25 @@ font-family: 'PT Sans', sans-serif;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 20px;
+	padding-left: 0;
+	margin-left: 0;
 }
 .organization li {
 	padding: 12px;
+	list-style: none;
+	padding-left: 40px;
+	position: relative;
+
+}
+.organization li:before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/line.png") no-repeat;
+  	top: 20px;
+  	left: 5px;
+  	width: 25px;
+    height: 2px;
+ 
 }
 .about-us a {
 	float: left;
