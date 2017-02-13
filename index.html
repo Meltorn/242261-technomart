@@ -316,7 +316,40 @@
 		   				</span>
 		   			</div>
 		    	</div>
-		    </div>  		
-    	</footer>
+		    </div> 
+    	
+    	<!--<div class="write-us">
+    		<form name="write-us-form" method="post">
+    			<label>Ваше имя:<input type="name" size="40" palceholder="Представьтесь, пожалуйста"></label>
+	    		<label>Ваш e-mail:<input type="email" palceholder="Для отправки ответа"></label>
+	    		<label>Текст письма:<textarea name="comment" cols="40" rows="3" placeholder="В свободной форме"></textarea></label>
+	    	</form>
+    	</div> -->	
+    	<div class="write-us">
+	        <a href="#" class="write-us-close"></a>
+	        <form action="/write-us" method="post">
+
+	            <div class="write-us-userdata">
+	            	<a href="#"></a>
+	                <div class="write-us-block">
+	                    <div class="write-us-left-column">
+	                        <label class="write-us-data" for="write-us-login">Ваше имя:</label>
+	                        <input type="text" name="login" id="write-us-login" placeholder="Представьтесь, пожалуйста">
+	                    </div>
+	                    <div class="write-us-right-column">
+	                        <label class="write-us-data" for="write-us-email">Ваш e-mail:</label>
+	                        <input type="email" name="email" id="write-us-email" placeholder="Для отправки ответа" required>
+	                    </div>
+	                </div>
+	                <label class="write-us-data" for="write-us-textarea">Текст письма:</label>
+	                <textarea name="text" id="write-us-textarea" placeholder="В свободной форме" required rows="5" ></textarea>
+	            </div>
+	            <div class="write-us-block-buttons">
+	            	<button type="submit" class="write-us-btn">Отправить</button>
+
+	            </div>
+	        </form>
+		</div>
+		</footer>
     </body>
 </html>

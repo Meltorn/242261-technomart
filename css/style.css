@@ -2367,3 +2367,128 @@ footer {
 	font-size: 13px;
 	line-height: 24px;
 }
+/*--==Write Us==--*/
+.write-us {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 620px;
+	min-height: 430px;
+	margin: 0 auto;
+	border-top: solid #ee3643 7px;
+	margin-top: 50px;
+	box-shadow: 0px 20px 40px rgba(0,0,0,0.5);
+}
+.write-us form {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-between;
+	align-items: space-between;
+	
+}
+.write-us-userdata a {
+	content: "";
+	position: absolute;
+  	top: 9px;
+  	right: 9px;
+	background: url("../img/icon/close.png") no-repeat;
+    width: 21px;
+    height: 21px;
+
+}
+
+.write-us-userdata {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+	padding: 45px 80px 0;
+	width: 460px;
+	position: relative;
+}
+.write-us-userdata label {
+	display: flex;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 18px;
+	line-height: 18px;
+	padding-bottom: 13px;
+}
+.write-us-userdata input, .write-us-userdata textarea {
+	display: flex;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+
+}
+.write-us-block {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.write-us-left-column{
+	box-sizing: content-box;
+	
+	width: 220px;
+}
+.write-us-left-column input, .write-us-right-column input{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 220px;
+	min-height: 38px;
+	padding-left: 14px;
+	border: solid #d7dcde 2px;
+	border-radius: 2px;
+	color: #999999;
+}
+.write-us-right-column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 220px;
+}
+#write-us-textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	width: 460px;
+	min-height: 100px;
+	padding-left: 14px;
+	padding-top: 10px;
+	border: solid #d7dcde 2px;
+	border-radius: 2px;
+	color: #999999;
+
+
+}
+
+.write-us-block-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 112px;
+	background-color: #f1f1f1;
+	width: 100%;
+}
+.write-us-btn{
+	display: flex;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+	width: 460px;
+	min-height: 38px;
+	background-color: #ee3643;
+	border: 0;
+	border-radius: 4px/2px;
+}
