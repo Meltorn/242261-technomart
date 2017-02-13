@@ -2112,14 +2112,14 @@ footer {
 	margin-right: 8px;
 	display: none;
 }
-input[type="checkbox"] + label {
+.vendor input[type="checkbox"] + label {
 	display: block;
 	cursor: pointer;
 	position: relative;
 	padding-left: 30px;
 	margin-top: 12px;
 }
-input[type="checkbox"] + label::before {
+.vendor input[type="checkbox"] + label::before {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
@@ -2130,7 +2130,7 @@ input[type="checkbox"] + label::before {
     background-position: -29px -31px;
 
 }
-input[type="checkbox"]:checked + label::after {
+.vendor input[type="checkbox"]:checked + label::after {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
@@ -2142,7 +2142,7 @@ input[type="checkbox"]:checked + label::after {
 
 }
 
-input[type="radio"] + label {
+.item input[type="radio"] + label {
 	display: block;
 	cursor: pointer;
 	position: relative;
@@ -2150,7 +2150,7 @@ input[type="radio"] + label {
 	margin-top: 12px;
 }
 
-input[type="radio"] + label::before {
+.item input[type="radio"] + label::before {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
@@ -2161,7 +2161,7 @@ input[type="radio"] + label::before {
     background-position: -167px -31px;
 
 }
-input[type="radio"]:checked + label::after {
+.item input[type="radio"]:checked + label::after {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
