@@ -2110,6 +2110,47 @@ footer {
 }
 .vendor input, .item input {
 	margin-right: 8px;
+	display: none;
+}
+.vendor label {
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+	margin-top: 12px;
+}
+
+.vendor label::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 0px;
+  	left: 0px;
+  	width: 23px;
+    height: 23px;
+    background-position: -29px -31px;
+
+}
+.vendor label::after {
+	display: none;
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 0px;
+  	left: 0px;
+  	width: 27px;
+    height: 23px;
+    background-position: -130px -31px;
+
+}
+input[type=checkbox]:checked + .vendor label::after {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 0px;
+  	left: 0px;
+	width: 27px;
+    height: 23px;
+    background-position: -130px -31px;
 }
 .show-btn {
 	display: flex;
