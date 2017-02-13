@@ -2112,14 +2112,14 @@ footer {
 	margin-right: 8px;
 	display: none;
 }
-.vendor label {
+input[type="checkbox"] + label {
+	display: block;
 	cursor: pointer;
 	position: relative;
 	padding-left: 30px;
 	margin-top: 12px;
 }
-
-.vendor label::before {
+input[type="checkbox"] + label::before {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
@@ -2130,8 +2130,7 @@ footer {
     background-position: -29px -31px;
 
 }
-.vendor label::after {
-	display: none;
+input[type="checkbox"]:checked + label::after {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
@@ -2142,15 +2141,36 @@ footer {
     background-position: -130px -31px;
 
 }
-input[type=checkbox]:checked + .vendor label::after {
+
+input[type="radio"] + label {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+	margin-top: 12px;
+}
+
+input[type="radio"] + label::before {
 	content: "";
 	position: absolute;
 	background: url("../img/icon/spritesheet.png") no-repeat;
   	top: 0px;
   	left: 0px;
-	width: 27px;
-    height: 23px;
-    background-position: -130px -31px;
+  	width: 25px;
+    height: 25px;
+    background-position: -167px -31px;
+
+}
+input[type="radio"]:checked + label::after {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+  	top: 0px;
+  	left: 0px;
+  	 width: 25px;
+    height: 25px;
+    background-position: -5px -66px;
+
 }
 .show-btn {
 	display: flex;
