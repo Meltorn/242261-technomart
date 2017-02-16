@@ -2834,7 +2834,7 @@ footer {
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 620px;
-	min-height: 430px;
+	min-height: 423px;
 	margin: 0 auto;
 	border-top: solid #ee3643 7px;
 	margin-top: 50px;
@@ -2959,4 +2959,99 @@ footer {
 }
 .write-us-btn:active {
 	background-color: #ba2732;
+}
+
+
+/*--==Окно Товар добавлен==--*/
+.product-add {
+	width: 620px;
+	min-height: 277px;
+	margin-top: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top: 7px solid #ee3643;
+	position: relative;
+	box-shadow: 0px 20px 40px rgba(0,0,0,0.5);
+
+}
+.product-add-text {
+	min-height: 165px;
+	padding-left: 176px;
+	
+}
+.product-add-text h2 {
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+	padding-top: 68px;
+}
+.product-add-text-shape {
+	position: absolute;
+  	top: 47px;
+  	left: 80px;
+	width: 66px;
+    height: 66px;
+    background-color: #63a63e;
+    border-radius: 33px;
+
+}
+.product-add-text-shape::before {
+	content: "";
+	position: absolute;
+  	top: 18px;
+  	left: 13px;
+	background: url("../img/icon/shape.png") no-repeat;
+    width: 39px;
+    height: 30px;
+}
+.product-add-buttons-bg {
+	display: flex;
+	background-color: #f1f1f1;
+}
+.product-add-buttons {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 112px;
+	padding: 0 80px;
+}
+.product-add-order-btn, .product-add-cancel-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Cuprum', sans-serif, Arial;
+	font-size: 14px;
+	line-height: 18px;
+	width: 220px;
+	background-color: #ee3643;
+	height: 38px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 2px;
+}
+.product-add-cancel-btn {
+	background-color: #ffffff;
+	color: #000000;
+}
+.product-add-order-btn:hover {
+	background-color: #ca2c37;
+}
+.product-add-order-btn:active {
+	background-color: #ba2732;
+}
+.product-add-close {
+	content: "";
+	position: absolute;
+  	top: 9px;
+  	right: 9px;
+	background: url("../img/icon/close.png") no-repeat;
+    width: 21px;
+    height: 21px;
+
 }
