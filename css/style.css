@@ -1412,7 +1412,8 @@ font-family: 'PT Sans', sans-serif;
 	border:3px solid #32425c;
 }
 .actions .bookmark:active {
-	border:3px solid #c1c6ce;
+	
+	opacity: 0.3;
 }
 .actions .buy{
 	position: relative;
