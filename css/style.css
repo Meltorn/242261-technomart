@@ -1639,7 +1639,16 @@ font-family: 'PT Sans', sans-serif;
 	justify-content: space-between;
 	position: relative;
 }
-
+.shadow {
+	content: "";
+	position: absolute;
+  	top: 198px;
+  	left: 230px;
+	background: url("../img/icon/shadow.png") no-repeat;
+    width: 10px;
+    height: 272px;
+    z-index: 100001;
+}
 .slider-service{
     
     width:940px;
@@ -2427,7 +2436,7 @@ footer {
 	min-height: 55px;
 	margin: 0;
 }
-.range {
+/*.range {
 	display: flex;
 	flex-wrap: none;
 	background-color: #f7f3ec;
@@ -2463,6 +2472,80 @@ footer {
 	display: flex;
 	width: 30px;
 	background-color: #fff;
+}*/
+.range-filter {
+  width: 220px;
+}
+
+.range-controls {
+  position: relative;
+  height: 41px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #f7f3ec;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls label {
+  font-size: 16px;
+  display: inline-block;
+  width: 50%;
+}
+
+.max-price {
+  text-align: right;
+}
+
+.price-controls input {
+  font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+  width: 75px;
+  padding: 8px 10px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 2px;
+  background: #f7f3ec;
+  margin-bottom: 25px;
 }
 .check-menu .vendor {
 	display: flex;
@@ -2539,6 +2622,9 @@ footer {
   	 width: 25px;
     height: 25px;
     background-position: -5px -66px;
+
+}
+.vendor #bosch:checked {
 
 }
 .show-btn {
@@ -2830,7 +2916,7 @@ footer {
 }
 /*--==Write Us==--*/
 .write-us {
-	display: flex;
+	display: none;
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 620px;
@@ -2942,7 +3028,6 @@ footer {
 	width: 100%;
 }
 .write-us-btn{
-	display: flex;
 	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
@@ -2964,6 +3049,7 @@ footer {
 
 /*--==Окно Товар добавлен==--*/
 .product-add {
+	display: none;
 	width: 620px;
 	min-height: 277px;
 	margin-top: 50px;

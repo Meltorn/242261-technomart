@@ -113,21 +113,34 @@
 	            	<form>
 	            		<span>Фильтр</span>
 	            		<h2>Цена:</h2>
-	            		<div class="range">
+	            		<!--<div class="range">
 	            			<input type="range">
 	            		</div>
 	            		<div class="min-hight">
 	            			<span>0</span>
 	            			<span>-</span>
 	            			<span>30000</span>
-	            		</div>
+	            		</div>-->
+	            		<div class="range-filter">
+					        <div class="range-controls">
+					          <div class="scale">
+					            <div class="bar" style="margin-left: 0%; width: 80%"></div>
+					          </div>
+					          <div class="toggle toggle-min"></div>
+					          <div class="toggle toggle-max"></div>
+					        </div>
+					        <div class="price-controls">
+					          <label class="min-price"><input name="min-price" type="text" value="0"></label>
+					          <label class="max-price"><input name="max-price" type="text" value="30000"></label>
+					        </div>
+					      </div>
 	        			<div class="vendor">
 		            		<h2>Производители:</h2>
-		            		<input type="checkbox" id="bosch">
+		            		<input type="checkbox" id="bosch" checked="checked">
 		            		<label for="bosch">Bosch</label>
 		              		<input type="checkbox" id="interskol">
 		              		<label for="interskol">Интерскол</label>
-		      	     		<input type="checkbox" id="makita">
+		      	     		<input type="checkbox" id="makita" checked="checked">
 		      	     		<label for="makita">Makita</label>
 		              		<input type="checkbox" id="dewalt">
 		              		<label for="dewalt">Dewalt</label>
@@ -136,7 +149,7 @@
 		      	   		</div>
 	         			<div class="item">
 	   	   					<h2>Питание:</h2>
-	   	   					<input type="radio" name="energy" id="battery">
+	   	   					<input type="radio" name="energy" id="battery" checked="checked">
 	   	   					<label for="battery">Аккумуляторные</label>
 	   	   					<input type="radio" name="energy" id="net">
 	   	   					<label for="net">Сетевые</label>
