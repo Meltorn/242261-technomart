@@ -1056,10 +1056,11 @@ body {
     height:60px;
     text-indent:-1000px;
     overflow:hidden;
-     z-index:20;
+    z-index:20;
 }
-.catalog-item .flag-new{
+.catalog-item .flag-new {
     background:url("../img/icon/new.png") no-repeat 0 0;
+
 }
 .catalog-item .actions{
     position:absolute;
@@ -2214,6 +2215,10 @@ footer {
 	color: #ee3643; 
 	border: none;
 }
+.product-filter .active {
+	color: #ee3643;
+	border: none; 
+}
 .filter .product-arrow {
 	display: flex;
 	flex-direction: row;
@@ -2253,6 +2258,9 @@ footer {
 	background-position: -130px -5px;
 }
 .product-arrow .up:active {
+	background-position: -151px -5px;
+}
+.product-arrow .active {
 	background-position: -151px -5px;
 }
 .product-arrow .down {
@@ -2611,4 +2619,31 @@ footer {
     width: 21px;
     height: 21px;
 
+}
+.map-popup {
+	display: none;
+	width: 940px;
+	min-height: 446px;
+	margin: 40px auto;
+	position: relative;
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+}
+.map-popup::before {
+	content: "";
+	position: absolute;
+	width: 940px;
+	min-height: 446px;
+	background: url("../img/map-popup.jpg") no-repeat;
+	background-position: -135px -260px;
+
+}
+.map-popup .close-btn:before {
+	content: "";
+	position: absolute;
+  	top: 9px;
+  	right: 9px;
+	background: url("../img/icon/close.png") no-repeat;
+    width: 21px;
+    height: 21px;
+    z-index: 2;
 }
