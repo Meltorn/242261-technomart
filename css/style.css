@@ -1570,8 +1570,15 @@ body {
 	margin-bottom: 30px; 
 	width: 180px;
 }
-.contacts img {
+/*.contacts img {
 	margin-bottom: 39px;
+}*/
+.contacts .map {
+	width: 300px;
+	height: 158px;
+	background: url("../img/map.jpg") no-repeat;
+  	margin-bottom: 37px;
+  	padding: 0;
 }
 	
 footer {
