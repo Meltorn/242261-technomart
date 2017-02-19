@@ -129,18 +129,6 @@ body {
     background-color: #293449;
     outline: none;
     opacity: 1;
-    ::-webkit-input-placeholder {
-        color: #c0392b;
-    }
-    ::-moz-placeholder {
-        color: #c0392b;
-    }
-    :-moz-placeholder {
-        color: #c0392b;
-    }
-    :-ms-input-placeholder {
-        color: #c0392b;
-    }
 }
 .top-search input:hover {
     background: #212a3a;
@@ -162,6 +150,31 @@ body {
 .top-search input:focus {
     color: #000000;
     background: #ffffff;
+}
+
+.top-search input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.top-search input::-moz-placeholder {
+  color: #ffffff;
+}
+.top-search input:-moz-placeholder {
+  color: #ffffff;
+}
+.top-search input:-ms-input-placeholder {
+  color: #ffffff;
+}
+.top-search input:focus::-webkit-input-placeholder {
+  color: #000000;
+}
+.top-search input:focus::-moz-placeholder {
+  color: #000000;
+}
+.top-search input:focus:-moz-placeholder {
+  color: #000000;
+}
+.top-search input:focus:-ms-input-placeholder {
+  color: #000000;
 }
 .bookmarks {
     display: -webkit-box;
@@ -510,6 +523,10 @@ body {
 .entrance a:hover {
     color: #ee3643;
 }
+.entrance a:active {
+	color: #000000;
+	opacity: 0.3;
+}
 .entrance a::before {
     content: "";
     position: absolute;
@@ -559,6 +576,10 @@ body {
 }
 .registaration a:hover {
     color: #ee3643;
+}
+.registaration a:active {
+	color: #000000;
+	opacity: 0.3;
 }
 /* ---===Стили каталога===--- */
 
