@@ -157,9 +157,11 @@ body {
 }
 .top-search input::-moz-placeholder {
   color: #ffffff;
+  opacity: 1;
 }
 .top-search input:-moz-placeholder {
   color: #ffffff;
+  opacity: 1;
 }
 .top-search input:-ms-input-placeholder {
   color: #ffffff;
