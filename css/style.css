@@ -1,6 +1,6 @@
 body {
 	color: #000000;
-	font-family: 'Cuprum', sans-serif, 'PT Sans', sans-serif;
+	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 0px;
 	line-height: 1.5;
 	font-style: normal;
@@ -33,7 +33,6 @@ body {
 	color: #ffffff;
 	width: 220px;
 	box-shadow: #ca2c37 0px 5px 0px 0px;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: bold;
@@ -98,7 +97,7 @@ body {
     width: 270px;
     min-height: 42px;
     padding-left: 49px;
-    font-family: Cuprum, "Arial", sans-serif;
+    font-family: 'Cuprum', sans-serif, Arial;
     font-size: 17px;
     line-height: 19px;
     color: #ffffff;
@@ -144,7 +143,7 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
+	
 	font-size: 17px;
 	line-height: 18px;
 	text-decoration: none;
@@ -191,7 +190,6 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 17px;
 	line-height: 18px;
 	text-decoration: none;
@@ -240,7 +238,6 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 17px;
 	line-height: 18px;
 	text-decoration: none;
@@ -278,7 +275,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	color: #ee3643;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 15px;
 	line-height: 23px;
 	font-style: italic;
@@ -298,7 +294,6 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
 	border: solid white 2px;
@@ -312,7 +307,6 @@ body {
 .adress a {
 	display: flex;
 	flex-direction: row;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
@@ -342,7 +336,6 @@ body {
 }
 .entrance, .registaration {
 	display: flex;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 16px;
 	line-height: 18px;
 	margin: 0;
@@ -365,7 +358,6 @@ body {
 	min-height: 45px;
 	text-decoration: none;
 	color: #000000;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
 	padding-left: 20px;
@@ -403,7 +395,6 @@ body {
 	min-height: 45px;
 	text-decoration: none;
 	color: #000000;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
 }
@@ -419,7 +410,6 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
 	width: 206px;
@@ -434,7 +424,6 @@ body {
 	align-items: center;
 	width: 253px;
 	min-height: 45px;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 21px;
 	text-decoration: none;
@@ -499,7 +488,6 @@ body {
     font-size: 0;
 }
 .customer-options a {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 16px;
 	line-height: 18px;
 	position: relative;
@@ -566,7 +554,6 @@ body {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 17px;
 	line-height: 17px;
 	color: #ffffff;
@@ -598,7 +585,6 @@ body {
 	color: #ffffff;
 }
 .style h3 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: bold;
@@ -609,7 +595,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	border: 1px;
 	border-radius: 3px;
@@ -680,7 +665,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	border: 1px;
 	border-radius: 3px;
@@ -757,7 +741,6 @@ body {
     color:#283136;
 }
 .top-slide-title h2{
-	font-family: 'Cuprum', sans-serif, Arial;
     font-size:36px;
     line-height: 36px;
     font-weight:bold;
@@ -780,7 +763,6 @@ body {
     padding:10px 0;
     margin-top:123px;
     margin-left: 1px;
-    font-family: 'Cuprum', sans-serif, Arial;
 	font-size:14px;
     line-height: 18px;
     color:white;
@@ -844,7 +826,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	border: 1px;
 	border-radius: 3px;
@@ -876,7 +857,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	border: 1px;
 	border-radius: 3px;
@@ -906,7 +886,6 @@ body {
 }
 .style a {
 	display: flex;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1018,7 +997,6 @@ body {
     color:white;
     font-size:14px;
     font-weight:normal;
-    font-family:"Cuprum", sans-serif;
     line-height:18px;
     text-decoration:none;
     text-transform:uppercase;    
@@ -1142,7 +1120,6 @@ body {
 	vertical-align: center;
 	margin: 0;
 	padding: 0;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400px;
@@ -1236,7 +1213,6 @@ body {
 	position:relative;
 }
 .service-title h2 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -1272,7 +1248,6 @@ body {
 	border-top: solid #405069 1px;
 	border-bottom: solid #293449 1px;
 	color: #ffffff;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 21px;
 	line-height: 30px;
 	vertical-align: center;
@@ -1301,8 +1276,8 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.slide-title{
-    font-family: 'Cuprum', sans-serif, Arial;
+.slide-title {
+	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 36px;
 	line-height: 35px;
 	text-transform: uppercase;
@@ -1373,7 +1348,6 @@ body {
 	width: 540px;
 }
 .organization h2 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -1391,7 +1365,6 @@ body {
 	padding-top: 10px;
 }
 .organization ul {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 20px;
 	padding-left: 0;
@@ -1415,7 +1388,6 @@ body {
 }
 .about-us a {
 	float: left;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1451,7 +1423,6 @@ body {
 	align-content: flex-start;
 }
 .contacts h2 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -1504,7 +1475,6 @@ footer {
 	margin: 0;
 	background-color: #ee3643;
 	border-bottom: solid #b52933 5px;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 }
@@ -1526,7 +1496,6 @@ footer {
 .footer-left p{
 	margin: 0;
 	color: #ffffff;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 24px;
 	padding-top: 28px;
@@ -1551,7 +1520,6 @@ footer {
 }
 .footer-right ul li {
 	list-style-type: none;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 24px;
 }
@@ -1596,7 +1564,6 @@ footer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -1757,7 +1724,6 @@ footer {
 .container-head h1 {
 	margin: 0;
 	padding: 30px 28px;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -2213,7 +2179,6 @@ footer {
 	padding-top: 63px;
 }
 .solution h2 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -2268,7 +2233,6 @@ footer {
 }
 .write-us-userdata label {
 	display: flex;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 18px;
 	line-height: 18px;
 	padding-bottom: 13px;
@@ -2333,7 +2297,6 @@ footer {
 	width: 100%;
 }
 .write-us-btn{
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -2368,7 +2331,6 @@ footer {
 	padding-left: 176px;
 }
 .product-add-text h2 {
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 30px;
 	line-height: 30px;
 	margin: 0;
@@ -2410,7 +2372,6 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Cuprum', sans-serif, Arial;
 	font-size: 14px;
 	line-height: 18px;
 	width: 220px;
