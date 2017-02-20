@@ -1,6 +1,6 @@
 body {
     color: #000000;
-    font-family: 'Cuprum', sans-serif, Arial;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 0px;
     line-height: 1.5;
     font-style: normal;
@@ -121,7 +121,7 @@ body {
     width: 270px;
     min-height: 42px;
     padding-left: 49px;
-    font-family: 'Cuprum', sans-serif, Arial;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 17px;
     line-height: 19px;
     color: #ffffff;
@@ -858,7 +858,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'Cuprum', sans-serif, Arial;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     border: 1px;
     border-radius: 3px;
@@ -928,7 +928,7 @@ body {
     position: relative;
     width: 620px;
     height: 266px;
-    background: #eeeeee;
+    background: #32425c;
 }
 .top-slider input[type=radio] {
     position: absolute;
@@ -975,13 +975,12 @@ body {
 .top-slide-title h2 {
     font-size: 36px;
     line-height: 36px;
-    font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
     margin: 0;
 }
 .top-slide-text p {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 24px;
     margin: 0;
@@ -1194,6 +1193,7 @@ body {
 .catalog-item {
     position: relative;
     display: inline-block;
+    vertical-align: middle;
     width: 218px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -1302,7 +1302,7 @@ body {
     max-width: 100%;
 }
 .catalog-item .title {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
@@ -1312,7 +1312,7 @@ body {
     margin-bottom: 0px;
 }
 .catalog-item .cross-out {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
     line-height: 18px;
     font-weight: bold;
@@ -1324,7 +1324,7 @@ body {
     text-decoration: line-through;
 }
 .catalog-item .price {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;;
     font-size: 17px;
     line-height: 18px;
     font-weight: bold;
@@ -1378,7 +1378,7 @@ body {
     padding: 0;
     font-size: 30px;
     line-height: 30px;
-    font-weight: 400px;
+    font-weight: 400;
     text-transform: uppercase;
     color: #32425c;
 }
@@ -1419,7 +1419,7 @@ body {
     margin-top: -21px;
     padding-left: 24px;
 }
-.vendors {
+.vendors ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1428,7 +1428,11 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    list-style: none;
+    width: 940px;
+    padding: 0;
 }
+
 .vendors a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1447,6 +1451,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 20px;
+    margin-right: 0;
 }
 .vendors a:hover {
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
@@ -1506,7 +1511,7 @@ body {
     margin: 70px 0 28px 0;
 }
 .service-title p {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     margin: 0 0 18px 0;
@@ -1537,7 +1542,7 @@ body {
     color: #ffffff;
     font-size: 21px;
     line-height: 30px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
@@ -1562,27 +1567,27 @@ body {
 }
 .slide-text {
     width: 380px;
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     padding: 0;
     margin: 0;
 }
 .slide-title {
-    font-family: 'Cuprum', sans-serif, Arial;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 36px;
     line-height: 35px;
     text-transform: uppercase;
     color: #32425c;
     margin-bottom: 25px;
 }
-.slide-title p {
+.slide-text p {
     margin: 0;
-    padding-top: 8px;
 }
+
 .slide .btn {
     display: block;
-    font-family: 'Cuprum', sans-serif, Arial;
+    font-family: "Cuprum", "Arial", sans-serif;
     width: 195px;
     padding: 10px 0;
     margin-top: 30px;
@@ -1654,7 +1659,7 @@ body {
     padding-bottom: 14px;
 }
 .organization p {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: 400;
@@ -1737,7 +1742,7 @@ body {
     padding-bottom: 14px;
 }
 .contacts p {
-    font-family: 'PT Sans', sans-serif, Arial;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     font-weight: 400;
@@ -2064,7 +2069,9 @@ footer {
     display: flex;
     width: 940px;
     margin: 0 auto;
-    padding: 19px;
+    padding: 18px 0;
+    margin-top: 1px;
+    margin-bottom: 1px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -2079,9 +2086,10 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row;
     margin: 0;
     padding-left: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -2096,8 +2104,9 @@ footer {
     color: #000000;
     position: relative;
 }
-.breadcrumbs li:nth-child(1) {
-    margin-left: 25px;
+.breadcrumbs .home {
+    margin-left: 0;
+    padding-right: 0px;
 }
 .breadcrumbs a:before {
     content: "";
@@ -2108,7 +2117,8 @@ footer {
     width: 7px;
     height: 12px;
 }
-.breadcrumbs ul:before {
+
+.breadcrumbs .home:before {
     content: "";
     position: absolute;
     background: url("../img/icon/home.png") no-repeat;
@@ -2116,6 +2126,7 @@ footer {
     left: 0px;
     width: 14px;
     height: 12px;
+    padding-left: 0;
 }
 .container-head {
     width: 940px;
@@ -2127,6 +2138,7 @@ footer {
     padding: 30px 28px;
     font-size: 30px;
     line-height: 30px;
+    font-weight: 400;
     text-transform: uppercase;
     color: #32425c;
 }
@@ -2184,7 +2196,7 @@ footer {
     margin: 0;
     padding: 0 18px;
     background-color: #f7f3ec;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -2220,6 +2232,8 @@ footer {
     width: 70%;
     height: 2px;
     background: #00ca74;
+    margin-left: 0%;
+    width: 80%;
 }
 .range-controls .toggle {
     position: absolute;
@@ -2245,13 +2259,14 @@ footer {
 .price-controls label {
     font-size: 16px;
     display: inline-block;
+    vertical-align: middle;
     width: 50%;
 }
 .max-price {
     text-align: right;
 }
 .price-controls input {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
     line-height: 18px;
     width: 75px;
@@ -2276,7 +2291,7 @@ footer {
     width: 220px;
     border-top: solid #e5e5e5 1px;
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
@@ -2313,6 +2328,16 @@ footer {
     width: 27px;
     height: 23px;
     background-position: -130px -31px;
+}
+.vendor input[type="checkbox"]:disabled + label::after {
+    content: "";
+    position: absolute;
+    background: url("../img/icon/check-off-na.png") no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 27px;
+    height: 23px;
+    opacity: 0.3;
 }
 .item input[type="radio"] + label {
     display: block;
@@ -2352,7 +2377,7 @@ footer {
     width: 140px;
     min-height: 38px;
 }
-.show-btn a {
+.show-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2364,21 +2389,25 @@ footer {
     align-items: center;
     width: 140px;
     min-height: 38px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
     border: solid #e5e5e5 1px;
     border-radius: 2px;
+    background-color: #ffffff;
 }
-.show-btn a:hover {
+.show-btn:hover {
     border: solid #bdc6ca 1px;
 }
-.show-btn a:active {
+.show-btn:active {
     border: solid #ee3643 1px;
 }
 .check-menu h2 {
     color: #000000;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 17px;
     line-height: 30px;
     font-style: bold;
@@ -2400,14 +2429,14 @@ footer {
     width: auto;
     border-top: solid #e5e5e5 1px;
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     margin-top: 4px;
 }
 .show-btn a {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -2455,7 +2484,7 @@ footer {
     width: 85px;
     margin: 0;
     text-transform: uppercase;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     margin-right: 96px;
@@ -2489,7 +2518,7 @@ footer {
     -ms-flex-align: space-between;
     align-items: space-between;
     text-transform: uppercase;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-decoration: none;
@@ -2600,7 +2629,7 @@ footer {
     justify-content: flex-start;
     margin: 32px 0 60px 0;
     width: auto;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -2658,7 +2687,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: #ffffff;
@@ -2685,7 +2714,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: #000000;
@@ -2704,7 +2733,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: #000000;
@@ -2737,12 +2766,13 @@ footer {
 .solution h2 {
     font-size: 30px;
     line-height: 30px;
+    font-weight: 400;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
 .solution p {
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     padding-top: 13px;
@@ -2755,7 +2785,7 @@ footer {
     position:fixed; 
     top:50%; 
     left:50%;
-    transform: translate(-50%, - 50%);
+    transform: translate(-50%, -50%);
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -2829,7 +2859,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
 }
@@ -2877,7 +2907,7 @@ footer {
 }
 #write-us-textarea {
     box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
     width: 460px;
@@ -2922,11 +2952,11 @@ footer {
 /*--==Окно Товар добавлен==--*/
 
 .product-add {
-	display: block;
+	display: none;
     position:fixed; 
     top:50%; 
     left:50%;
-    transform: translate(-50%, - 50%);
+    transform: translate(-50%, -50%);
     width: 620px;
     min-height: 277px;
     margin-top: 50px;
@@ -2934,8 +2964,9 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
     border-top: 7px solid #ee3643;
-    position: relative;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    z-index: 1000000;
 }
 .product-add-text {
     min-height: 165px;
@@ -3032,14 +3063,15 @@ footer {
     height: 21px;
 }
 .map-popup {
-	display: block;
+	display: none;
     position:fixed; 
     top:50%; 
     left:50%;
-    transform: translate(-50%, - 50%);
+    transform: translate(-50%, -50%);
     width: 940px;
     min-height: 446px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+    z-index: 1000000;
 }
 .map-popup::before {
     content: "";
