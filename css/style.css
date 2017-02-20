@@ -2381,6 +2381,10 @@ footer {
     width: 140px;
     min-height: 38px;
 }
+.vendor input:disabled + label::before,
+.item input:disabled + label::before {
+    opacity: 0.3;
+}
 .show-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2392,7 +2396,7 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     width: 140px;
-    min-height: 38px;
+    padding: 8px 0;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -2402,12 +2406,16 @@ footer {
     border: solid #e5e5e5 1px;
     border-radius: 2px;
     background-color: #ffffff;
+    outline-width: 0;
+    outline-color: #e5e5e5;
 }
 .show-btn:hover {
     border: solid #bdc6ca 1px;
+    outline-color: #bdc6ca;
 }
 .show-btn:active {
     border: solid #ee3643 1px;
+    outline-color: #ee3643;
 }
 .check-menu h2 {
     color: #000000;
