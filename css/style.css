@@ -378,7 +378,7 @@ body {
     width: 248px;
     padding-left: 52px;
 }
-.slogan h1 {
+.slogan p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -405,8 +405,11 @@ body {
     align-items: flex-start;
     width: 300px;
     font-size: 21px;
+    vertical-align: middle;
+    min-height: 39px;
 }
 .adress span {
+    vertical-align: middle;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -483,6 +486,7 @@ body {
     font-size: 16px;
     line-height: 18px;
     margin: 0;
+    vertical-align: middle;
 }
 .entrance {
     display: -webkit-box;
@@ -501,6 +505,7 @@ body {
     width: 121px;
     margin: 0;
     margin-left: 20px;
+    vertical-align: top;
 }
 .entrance a {
     display: -webkit-box;
@@ -521,6 +526,7 @@ body {
     line-height: 21px;
     padding-left: 20px;
     position: relative;
+    vertical-align: middle;
 }
 .entrance a:hover {
     color: #ee3643;
@@ -2928,6 +2934,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: 37px;
     min-height: 112px;
     background-color: #f1f1f1;
     width: 100%;
@@ -2959,7 +2966,6 @@ footer {
     transform: translate(-50%, -50%);
     width: 620px;
     min-height: 277px;
-    margin-top: 50px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
