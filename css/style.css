@@ -70,7 +70,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 220px;
-    min-height: 41px;
+    padding: 8px 0;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
@@ -402,14 +402,14 @@ body {
     flex-wrap: wrap;
     -webkit-box-align: start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     width: 300px;
     font-size: 21px;
-    vertical-align: middle;
-    min-height: 39px;
+    
 }
 .adress span {
-    vertical-align: middle;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -423,11 +423,11 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding: 9px 0;
     font-size: 21px;
     line-height: 21px;
     border: solid white 2px;
     width: 244px;
-    min-height: 39px;
     padding-left: 21px;
     border: solid #ffffff 3px;
     color: #e9292a;
@@ -486,7 +486,7 @@ body {
     font-size: 16px;
     line-height: 18px;
     margin: 0;
-    vertical-align: middle;
+    
 }
 .entrance {
     display: -webkit-box;
@@ -505,7 +505,7 @@ body {
     width: 121px;
     margin: 0;
     margin-left: 20px;
-    vertical-align: top;
+    
 }
 .entrance a {
     display: -webkit-box;
@@ -519,7 +519,7 @@ body {
     align-items: center;
     background-color: #ffffff;
     width: 101px;
-    min-height: 45px;
+    padding: 12px 0;
     text-decoration: none;
     color: #000000;
     font-size: 21px;
@@ -576,7 +576,7 @@ body {
     align-items: center;
     background-color: #ffffff;
     width: 150px;
-    min-height: 45px;
+    padding: 12px 0;
     text-decoration: none;
     color: #000000;
     font-size: 21px;
@@ -622,7 +622,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 253px;
-    min-height: 45px;
+    padding: 12px 0 12px;
     font-size: 21px;
     line-height: 21px;
     text-decoration: none;
@@ -683,7 +683,7 @@ body {
     opacity: 0.3;
 }
 .customer-options {
-    padding-top: 7px;	
+    padding-top: 8px;	
     font-size: 0;
 }
 .customer-options a {
@@ -825,7 +825,7 @@ body {
     border: 1px;
     border-radius: 3px;
     width: 135px;
-    min-height: 38px;
+    padding: 10px 0;
     margin-top: 13px;
     margin-left: 2px;
     background-color: rgba(172, 124, 31, 0.33);
@@ -869,7 +869,7 @@ body {
     border: 1px;
     border-radius: 3px;
     width: 135px;
-    min-height: 38px;
+    padding: 10px 0;
     margin-top: 15px;
     margin-left: 2px;
     background-color: rgba(52, 122, 155, 0.33);
@@ -907,7 +907,7 @@ body {
     border: 1px;
     border-radius: 3px;
     width: 135px;
-    min-height: 38px;
+    padding: 10px 0;
     margin-top: 15px;
     background-color: rgba(142, 84, 146, 0.33);
 }
@@ -1072,7 +1072,7 @@ body {
     border: 1px;
     border-radius: 3px;
     width: 135px;
-    min-height: 38px;
+    padding: 10px 0;
     margin-top: 15px;
     background-color: rgba(93, 146, 84, 0.33);
 }
@@ -1109,7 +1109,7 @@ body {
     border: 1px;
     border-radius: 3px;
     width: 135px;
-    min-height: 38px;
+    padding: 10px 0;
     margin-top: 15px;
     background-color: rgba(172, 124, 31, 0.33);
 }
@@ -1371,9 +1371,9 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 888px;
-    min-height: 89px;
+    padding: 25px 0 25px;
     background-color: #f7f3ec;
-    margin: 1px 0 20px 0;
+    margin: 5px 0 20px 0;
     padding-left: 28px;
     padding-right: 24px;
 }
@@ -1400,17 +1400,16 @@ body {
     -ms-flex-align: center;
     align-items: center;
     width: 253px;
-    min-height: 38px;
     background-color: #ee3643;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-    vertical-align: center;
     color: #ffffff;
     border: 1px;
     border-radius: 2px;
     text-decoration: none;
     margin-bottom: 1px;
+    padding: 9px 0 8px;
 }
 .vendors-head a:hover,
 .product-head a:hover {
@@ -1444,7 +1443,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 218px;
-    min-height: 143px;
+    height: 143px;
     border: solid #e5e5e5 1px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2197,10 +2196,9 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 38px;
     width: auto;
     margin: 0;
-    padding: 0 18px;
+    padding: 10px 18px 10px;
     background-color: #f7f3ec;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
@@ -2214,7 +2212,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 55px;
+    padding: 11px 0 15px;
     margin: 0;
 }
 .range-filter {
@@ -2420,7 +2418,7 @@ footer {
     text-transform: uppercase;
 }
 .item h2 {
-    padding-top: 4px;
+    margin-top: 3px;
 }
 .check-menu .item {
     display: -webkit-box;
@@ -2633,7 +2631,7 @@ footer {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    margin: 32px 0 60px 0;
+    margin: 32px 0 62px 0;
     width: auto;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
@@ -2700,7 +2698,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     width: 38px;
-    min-height: 38px;
+    padding: 9px 0;
 }
 .page-navigation:hover .page:hover,
 .page-navigation:hover .page-next:hover {
@@ -2727,7 +2725,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     width: 38px;
-    min-height: 38px;
+    padding: 9px 0;
 }
 .page-navigation .page-next {
     display: -webkit-box;
@@ -2745,7 +2743,7 @@ footer {
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
-    min-height: 38px;
+    padding: 9px 0;
     width: 140px;
 }
 .solution-bg {
