@@ -2774,6 +2774,7 @@ footer {
     width: 940px;
     margin: 0 auto;
     padding-top: 63px;
+    padding-bottom: 69px;
 }
 .solution h2 {
     font-size: 30px;
@@ -2782,13 +2783,16 @@ footer {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+    margin-bottom: 26px;
 }
 .solution p {
+    margin: 0;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
-    padding-top: 13px;
-    padding-bottom: 56px;
+    padding: 0
+  
+
 }
 /*--==Write Us==--*/
 
