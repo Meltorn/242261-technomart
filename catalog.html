@@ -390,6 +390,29 @@
         </div>
       </div>
     </div>
+    <script>
+    var link = document.querySelector(".buy");
+    var popup = document.querySelector(".product-add");
+    var close = popup.querySelector(".product-add-close");
+   
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.add("product-content-show");
+    });
+    close.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.remove("product-content-show");
+    });
+    window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (popup.classList.contains("product-content-show")) {
+            popup.classList.remove("product-content-show");
+          }
+        }
+      });
+
+ 
+  </script>
 </body>
 
 </html>

@@ -411,7 +411,77 @@
     <div class="map-popup">
       <a class="close-btn" href="#"></a>
     </div>
-</body>
+    
 
+    <div class="write-us">
+       <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="write-us-userdata">
+          <a href="#" class="write-us-close"></a>
+          <div class="write-us-block">
+            <div class="write-us-left-column">
+              <label class="write-us-data" for="write-us-login">Ваше имя:</label>
+              <input type="text" name="name" id="write-us-login" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div class="write-us-right-column">
+              <label class="write-us-data" for="write-us-email">Ваш e-mail:</label>
+              <input type="email" name="email" id="write-us-email" placeholder="Для отправки ответа" required>
+            </div>
+          </div>
+          <label class="write-us-data" for="write-us-textarea">Текст письма:</label>
+          <textarea name="text" id="write-us-textarea" placeholder="В свободной форме" required rows="5"></textarea>
+        </div>
+        <div class="write-us-block-buttons">
+          <button type="submit" class="write-us-btn">Отправить</button>
+        </div>
+      </form>
+    </div>
+  <script>
+  //Карта
+     var link = document.querySelector(".map");
+    var popup = document.querySelector(".map-popup");
+    var close = popup.querySelector(".close-btn");
+   
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.add("map-content-show");
+    });
+    close.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.remove("map-content-show");
+    });
+    window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (popup.classList.contains("map-content-show")) {
+            popup.classList.remove("map-content-show");
+          }
+        }
+      });
+
+// Напишите нам
+    var link = document.querySelector(".mail-button");
+    var popup = document.querySelector(".write-us");
+    var close = popup.querySelector(".write-us-userdata a");
+   
+    link.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.add("write-content-show");
+    });
+    close.addEventListener("click", function(event) {
+      event.preventDefault();
+      popup.classList.remove("write-content-show");
+    });
+    window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (popup.classList.contains("write-content-show")) {
+            popup.classList.remove("write-content-show");
+          }
+        }
+      });
+
+
+ 
+
+ </script>
+</body>
 </html>
 

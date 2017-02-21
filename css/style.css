@@ -1043,11 +1043,13 @@ body {
     background-image: url('../img/workman.jpg');
     background-repeat: no-repeat;
     background-position: 100%;
+    background-color: #32425c;
 }
 .top-slide:nth-child(2) {
     background-image: url('../img/workman2.jpg');
     background-repeat: no-repeat;
     background-position: 100%;
+    background-color: #32425c;
 }
 .top-slide {
     display: none;
@@ -2799,9 +2801,8 @@ footer {
 .write-us {
     display: none;
     position:fixed; 
-    top:50%; 
+    top:10%; 
     left:50%;
-    transform: translate(-50%, -50%);
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-orient: horizontal;
@@ -2810,6 +2811,8 @@ footer {
     flex-direction: row;
     width: 620px;
     min-height: 423px;
+    margin-top: -211px;
+    margin-left: -310px;
     border-top: solid #ee3643 7px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -2966,17 +2969,24 @@ footer {
 .write-us-btn:active {
     background-color: #ba2732;
 }
+.write-content-show {
+  display: flex;
+  animation: bounce 0.6s;
+}
+.write-content-error {
+  animation: shake 0.5s;
+}
 /*--==Окно Товар добавлен==--*/
 
 .product-add {
 	display: none;
     position:fixed; 
-    top:50%; 
+    top:10%; 
     left:50%;
-    transform: translate(-50%, -50%);
     width: 620px;
     min-height: 277px;
-    margin: 0 auto;
+    margin-top: -133px;
+    margin-left: -310px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-top: 7px solid #ee3643;
@@ -3078,14 +3088,33 @@ footer {
     width: 21px;
     height: 21px;
 }
+.product-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+@keyframes bounce {
+  0%   {
+    transform: translateY(-2000px);
+  }
+  70%  {
+    transform: translateY(30px);
+  }
+  90%  {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .map-popup {
 	display: none;
     position:fixed; 
     top:50%; 
     left:50%;
-    transform: translate(-50%, -50%);
     width: 940px;
     min-height: 446px;
+    margin-top: -223px;
+    margin-left: -470px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
     z-index: 1000000;
 }
@@ -3107,3 +3136,8 @@ footer {
     height: 21px;
     z-index: 2;
 }
+.map-content-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
