@@ -317,7 +317,7 @@
       <div class="contacts">
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш в офис:</p>
-        <a class="map" href="map.html"></a>
+        <a class="map js-open-map" href="map.html"></a>
         <div><a class="mail-button" href="form.html">Заблудились? Напишите нам!</a>
         </div>
       </div>
@@ -409,7 +409,8 @@
       </form>
     </div>
     <div class="map-popup">
-      <a class="close-btn" href="#"></a>
+      <a class="map-close-btn" href="#"></a>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651577!2d30.32089461586226!3d59.93879418187627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1487758574456" width="940" height="446" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     
 
@@ -436,26 +437,6 @@
       </form>
     </div>
   <script>
-  //Карта
-     var link = document.querySelector(".map");
-    var popup = document.querySelector(".map-popup");
-    var close = popup.querySelector(".close-btn");
-   
-    link.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.add("map-content-show");
-    });
-    close.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.remove("map-content-show");
-    });
-    window.addEventListener("keydown", function(event) {
-        if (event.keyCode === 27) {
-          if (popup.classList.contains("map-content-show")) {
-            popup.classList.remove("map-content-show");
-          }
-        }
-      });
 
 // Напишите нам
     var link = document.querySelector(".mail-button");
@@ -478,8 +459,28 @@
         }
       });
 
+  
+ //Карта
+    var mapLink = document.querySelector(".js-open-map");
+    var mapPopup = document.querySelector(".map-popup");
+    var mapClose = popup.querySelector(".map-close-btn");
+   
+    mapLink.addEventListener("click", function(event) {
+      event.preventDefault();
+      mapPopup.classList.add("map-content-show");
+    });
+    mapClose.addEventListener("click", function(event) {
+      event.preventDefault();
+      mapPopup.classList.remove("map-content-show");
+    });
+    window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (mapPopup.classList.contains("map-content-show")) {
+            mapPopup.classList.remove("map-content-show");
+          }
+        }
+      });
 
- 
 
  </script>
 </body>

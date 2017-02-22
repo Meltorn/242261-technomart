@@ -2924,7 +2924,7 @@ footer {
     flex-direction: row;
     width: 220px;
 }
-#write-us-textarea {
+.write-us textarea {
     box-sizing: border-box;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
@@ -3118,19 +3118,19 @@ footer {
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
     z-index: 1000000;
 }
-.map-popup::before {
+/*.map-popup::before {
     content: "";
     position: absolute;
     width: 940px;
     min-height: 446px;
     background: url("../img/map-popup.jpg") no-repeat;
     background-position: -135px -260px;
-}
-.map-popup .close-btn:before {
+}*/
+.map-popup .map-close-btn:before {
     content: "";
     position: absolute;
     top: 9px;
-    right: 9px;
+    right: -30px;
     background: url("../img/icon/close.png") no-repeat;
     width: 21px;
     height: 21px;
