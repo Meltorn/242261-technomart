@@ -839,19 +839,6 @@ body {
 .materials {
     position: relative;
 }
-.style-bg .flag {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 60px;
-    height: 60px;
-    text-indent: -1000px;
-    overflow: hidden;
-    z-index: 20;
-}
-.style-bg .flag-new {
-    background: url("../img/icon/new.png") no-repeat 0 0;
-}
 .materials img {
     position: absolute;
     right: 0;
@@ -866,6 +853,17 @@ body {
     width: 44px;
     height: 65px;
     background-position: -179px -86px;
+}
+.important .flag::after {
+    content: "";
+    position: absolute;
+    background: url("../img/icon/new.png") no-repeat 0 0;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 59px;
+    text-indent: -1000px;
+    z-index: 20;
 }
 .tools a {
     display: -webkit-box;
@@ -1230,18 +1228,17 @@ body {
 .catalog-item {
     font-size: 16px;
 }
-.catalog-item .flag {
+
+.row .flag-new::before {
+    content: "";
     position: absolute;
+    background: url("../img/icon/new.png") no-repeat 0 0;
     top: -1px;
     right: -1px;
     width: 60px;
-    height: 60px;
+    height: 59px;
     text-indent: -1000px;
-    overflow: hidden;
     z-index: 20;
-}
-.catalog-item .flag-new {
-    background: url("../img/icon/new.png") no-repeat 0 0;
 }
 .catalog-item .actions {
     position: absolute;
