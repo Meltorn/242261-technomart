@@ -839,6 +839,19 @@ body {
 .materials {
     position: relative;
 }
+.style-bg .flag {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    text-indent: -1000px;
+    overflow: hidden;
+    z-index: 20;
+}
+.style-bg .flag-new {
+    background: url("../img/icon/new.png") no-repeat 0 0;
+}
 .materials img {
     position: absolute;
     right: 0;
@@ -3117,6 +3130,8 @@ footer {
     margin-left: -470px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
     z-index: 1000000;
+    background-image: url("../img/map-popup.jpg");
+    background-position: -135px -260px;
 }
 /*.map-popup::before {
     content: "";
@@ -3126,7 +3141,7 @@ footer {
     background: url("../img/map-popup.jpg") no-repeat;
     background-position: -135px -260px;
 }*/
-.map-popup .map-close-btn:before {
+.map-popup a {
     content: "";
     position: absolute;
     top: 9px;

@@ -81,7 +81,8 @@
         <h3>Материалы</h3>
         <div class="style-bg">
           <a href="#">На любой вкус</a>
-          <img src="img/icon/new.png" width="60" height="59" alt="New">
+          <div class="flag flag-new">новинка
+          </div>
         </div>
       </div>
       <div class="tools style">
@@ -463,7 +464,7 @@
  //Карта
     var mapLink = document.querySelector(".js-open-map");
     var mapPopup = document.querySelector(".map-popup");
-    var mapClose = popup.querySelector(".map-close-btn");
+    var mapClose = popup.querySelector(".map-popup a");
    
     mapLink.addEventListener("click", function(event) {
       event.preventDefault();
